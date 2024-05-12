@@ -1,0 +1,14 @@
+
+
+OPENAI_API_KEY= "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"
+SF_USER='Bruhgyaa'
+SF_PASSWORD='Raipragya123@'
+SF_ACCOUNT='tuitedf-uo38613'
+SF_WAREHOUSE='COMPUTE_WH'
+SF_DATABASE = 'SNOWFLAKE_SAMPLE_DATA'
+SF_SCHEMA = 'TPCDS_SF100TCL'
+SF_ROLE='ACCOUNTADMIN'
+
+
+llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=OPENAI_API_KEY)
+ 
